@@ -1,0 +1,124 @@
+
+.landing-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    color: white;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .landing-container{
+        display: block;
+    }
+    .landing-container{
+        padding: 0 2rem;
+    }
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        max-width: 90%;
+    }
+    #mainp{
+        font-size: 20px;
+    }
+}
+
+.landing-container .left-section{
+    max-width: 45%;
+}
+
+.left-section #mainp{
+    font-family: "Roboto";
+    font-size: 40px; 
+    margin-bottom: 1rem;
+    animation-name: ContentLoader;
+    animation-duration: 4s;
+}
+
+@keyframes ContentLoader {
+    25%{translate: 50px 0}
+    50%{translate: 30px 0}
+    75%{translate: 10px 0}
+    100%{translate: 0 0}
+}
+
+
+.left-section #detail{
+    font-size: 15px;
+    animation-name: ContentDisplay;
+    animation-duration: 4s;
+}
+
+@keyframes ContentDisplay {
+    0%{opacity: 0}
+    50%{opacity: 0.5}
+    75%{opacity: 0.7}
+    100%{opacity: 1}
+}
+
+.landing-container .right-section{
+    max-width: 45%
+}
+
+.info-card{
+    height: 21rem;
+    width: 16rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+    flex-wrap: wrap;
+    padding: 4rem;
+    text-align: center;    
+    animation-name: ContinousDisplay;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    
+}
+
+@keyframes ContinousDisplay {
+    from{scale: 0.9}
+    to{scale: 1}
+}
+
+/* .info-card:hover{    
+    transform: scale(0.7)
+} */
+
+@keyframes ContentDisplay {
+    0%{opacity: 0}
+    50%{opacity: 0.5}
+    75%{opacity: 0.7}
+    100%{opacity: 1}
+}
+
+.info-header p{
+    font-size: 40px;
+}
+
+.get-started{
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+}
+
+.action-section{
+    margin-top: 3rem;
+}
+
+.info-header p{    
+    animation-name: ContentDrop;
+    animation-duration: 2s;
+    /* animation-iteration-count: 2; */
+
+}
+
+@keyframes ContentDrop {
+    from{translate: 0 -150px;}
+    to{translate: 0 0}
+}
