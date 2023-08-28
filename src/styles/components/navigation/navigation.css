@@ -1,0 +1,38 @@
+
+.navigation-section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1rem 8rem 0 8rem;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px){
+    .navigations{
+        display: none;
+    }
+    .navigation-section{
+        padding-left: 20px;
+        padding-top: 5px
+    }
+}
+
+.horzontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigations ul{
+    display: flex;
+}
+
+.navigations ul li{
+    margin-left: 4rem;
+}
+
+.navigations li{
+    list-style: none;
+}

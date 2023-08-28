@@ -1,0 +1,121 @@
+
+
+.properties{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.properties-head{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+#property-title{
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.property-image{
+    overflow: hidden;
+}
+
+.property-image img{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    transform: scale(1);
+    transition:  transform 0.3s;
+    transition-timing-function: ease-in-out
+}
+
+.property-image img:hover{
+    transform: scale(1.1);
+}
+
+.property-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 4rem;
+}
+
+/* .property-wrapper {
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+  } */
+
+  .below{
+    position: relative;
+    z-index: 1;
+  }
+
+  .overlay{
+    display: none;
+    position: absolute;
+    background-color: rgb(157, 157, 157);
+    height: 25rem;
+    width: 23rem;
+    z-index: 2;
+    opacity: 0;
+    transition:  opacity 0.3s;
+    transition-timing-function: ease-in-out
+  }
+
+  /* .overlay:hover{
+    opacity:0.5;
+  } */
+
+  .text-overlay{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    height: 25rem;
+    width: 23rem;
+    z-index: 5;
+    color: white;
+    text-align: center;
+    top: 20%
+  }
+
+.property-card{
+    position: relative;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: white;
+    overflow: hidden;
+     margin-bottom: 1rem;
+}
+
+.property-details{
+    text-align: center;
+}
+
+.property-details #title{
+    color: rgb(145, 145, 145);
+    font-size: 1.2rem;
+    margin-bottom: 1px;
+}
+
+#location{
+    margin-top: 4px;
+    color: rgb(198, 198, 198)
+}
+
+#price{
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    margin-top: 6px;
+}
+
+
+#plan{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+#range{
+    margin-top: 1px;
+    font-size: 2rem;
+}
