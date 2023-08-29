@@ -17,7 +17,7 @@
 .agent-header #header{ 
     font-size: 2.5rem;
     margin-bottom: 1rem;
-
+    color: #FDD700;
 }
 
 .agent-card{
@@ -59,15 +59,16 @@
     margin: 0 0;
 }
 
-.agent-details #name{
+.agent-details .name{
     font-size: 1.3rem;
+    color:#FFD700 !important;
 }
 
-.agent-details #agent-title{
+.agent-details .agent-title{
     color:rgb(193, 191, 191)
 }
 
-#agent-description{
+.agent-description{
     margin-top: 1rem;
     color: rgb(152, 151, 151);
 }

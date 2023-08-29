@@ -1,0 +1,42 @@
+
+
+.prob-container{
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    min-height: 100vh;
+    background-color: rgb(232, 229, 229);
+}
+
+
+.prob-container .left-section, .right-section{
+    max-width: 45%;    
+}
+
+.left-section img{
+    height: 27rem;
+    width: 35rem;
+}
+
+.prob-title{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.read{
+    color: white;
+    background-color:#FDD700 ;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3rem;
+    transition: 0.5s;
+}
+
+.read:hover{
+    background-color:transparent;
+    border: 1px solid #FDD700;
+}

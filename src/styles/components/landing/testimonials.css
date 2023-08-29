@@ -1,0 +1,22 @@
+.testimonials-section{
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;    
+    background-color: rgb(232, 229, 229);
+}
+
+.testimonials-header { 
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.testimonials-header .content{    
+    max-width: 50rem;
+}
+
+.testimonials-header #header{ 
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
