@@ -36,3 +36,8 @@
 .navigations li{
     list-style: none;
 }
+
+.logo-section{
+    max-height: 100px;
+    max-width: 100px;
+}

@@ -10,7 +10,7 @@ const Properties = () => {
   return (
     <div className='properties'>
       <div className='properties-head'>
-        <p id='property-title'>OUR PROPERTY</p>
+        <p id='property-title'>OUR PROPERTIES</p>
       </div>
 
       <div className='property-wrapper'>

@@ -7,7 +7,7 @@ const Agents = () => {
         <div className='agent-section'>
             <div className='agent-header'>
                 <div className='content'>
-                    <p id='header'>OUR AGENTS</p>
+                    <p id='header'>OUR TOP AGENTS</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
                 </div>
             </div>
@@ -15,13 +15,13 @@ const Agents = () => {
                 <div className='agent-card'>
                     <div className='agent-image-container'>
                         <div className='agent-image'>
-                            <img src={require("../media/images/team-2.jpg")} alt="" />
+                            <img src={require("../media/images/team-1.jpg")} alt="" />
                         </div>
                     </div>
                     <div className='agent-details'>
-                        <p id='name'>James Doe</p>
-                        <p id="agent-title">Real Estate Agent</p>
-                        <p id='agent-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
+                        <p className='name'>James Doe</p>
+                        <p className="agent-title">Real Estate Agent</p>
+                        <p className='agent-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
                     </div>
                     <div className='agent-handles'>
 
@@ -34,9 +34,9 @@ const Agents = () => {
                         </div>
                     </div>
                     <div className='agent-details'>
-                        <p id='name'>James Doe</p>
-                        <p id="agent-title">Real Estate Agent</p>
-                        <p id='agent-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
+                        <p className='name'>James Doe</p>
+                        <p className="agent-title">Real Estate Agent</p>
+                        <p className='agent-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
                     </div>
                     <div className='agent-handles'>
 
@@ -45,13 +45,13 @@ const Agents = () => {
                 <div className='agent-card'>
                     <div className='agent-image-container'>
                         <div className='agent-image'>
-                            <img src={require("../media/images/team-2.jpg")} alt="" />
+                            <img src={require("../media/images/testimonial-1.jpg")} alt="" />
                         </div>
                     </div>
                     <div className='agent-details'>
-                        <p id='name'>James Doe</p>
-                        <p id="agent-title">Real Estate Agent</p>
-                        <p id='agent-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
+                        <p className='name'>James Doe</p>
+                        <p className="agent-title">Real Estate Agent</p>
+                        <p className='agent-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
                     </div>
                     <div className='agent-handles'>
 
