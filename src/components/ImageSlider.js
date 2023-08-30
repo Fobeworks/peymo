@@ -14,6 +14,7 @@ const ImageSlider = ({ images }) => {
 		lazyLoad: true,
 		autoplay: true,
 		autoplaySpeed: 2000,
+		arrows: false,
 	};
 	return (
 		<>
