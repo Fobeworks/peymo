@@ -25,7 +25,7 @@ const ProblemsWeSolve = () => {
                     </p>
                 </div>
                 <div>
-                    <button className='read'>Read More</button>
+                    <button className='button'>Read More</button>
                 </div>
             </div>
         </div>

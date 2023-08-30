@@ -5,7 +5,8 @@ const Navigation = () => {
   return (
     <div className='navigation-section'>
       <div className='logo-section'>
-      <h1>Peymo</h1>
+      <img src={require("../media/images/logo.png")} alt=""  width={"100px"} />
+      
       </div>
 
       <div className='navigations'>

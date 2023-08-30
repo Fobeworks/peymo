@@ -11,7 +11,7 @@ const Landing = () => {
                     income and fostering financial independence.</p>
                 </div>
                 <div className='action-section'>
-                    <button className='get-started'>Get Started</button>
+                    <button className='button'>Get Started</button>
                 </div>
             </div>
 
